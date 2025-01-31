@@ -12,14 +12,14 @@ This is a **web-based quiz application** built using **HTML**, **CSS**, and **Ja
 ## Screenshots
 Below are some screenshots of the app interface:
 
-![Quiz App Screenshot 1](./Media/Screenshot%202025-01-31%20185558.png)
+![Quiz App Screenshot 1](./Media/Screenshot%202025-01-31%20190649.png)
 
 ![Quiz App Screenshot 2](./Media/Screenshot%202025-01-31%20185824.png)
 
 ## Video Demo
 Watch the app in action:
 
-[![Quiz App Demo]](./Media/Screen%20Recording%202025-01-31%20185750.mp4)
+[![Quiz App Demo](./Media/Screenshot%202025-01-31%20185558.png)](./Media/Screen%20Recording%202025-01-31%20185750.mp4)
 *Click to watch the video demo of the quiz application.*
 
 ## Installation
