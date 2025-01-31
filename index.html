@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+
+      <h1>Quiz App</h1>
+
+      <!-- start container -->
+      <div id="start-screen">
+        <div class="about">
+          <p class="info">Marking Scheme</p>
+          <div class="points">
+            <p>correct: <span class="correct">+4</span></p>
+            <p>incorrect: <span class="incorrect">-1</span></p>
+          </div>
+        </div>
+        <button id="start-btn">Start Quiz</button>
+      </div>
+
+      <!-- quiz container -->
+      <div id="quiz-screen" class="hidden">
+        <div id="progress-bar">
+          <div id="progress"></div>
+        </div>
+        <!-- <div id="timer">Time Left: <span id="time">30</span>s</div> -->
+        <h2 id="question"></h2>
+        <div id="options"></div>
+        <div id="score-display">Score: <span id="score">0</span></div>
+        <button id="next-btn" class="hidden">Next</button>
+      </div>
+
+      <!-- result container -->
+      <div id="result-screen" class="hidden">
+        <h2>Quiz Completed!</h2>
+        <p>Your Score: <span id="final-score"></span></p>
+        <button id="restart-btn">Restart Quiz</button>
+      </div>
+
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
